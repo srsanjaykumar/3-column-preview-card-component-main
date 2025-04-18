@@ -1,0 +1,110 @@
+@import url("https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Karla:ital,wght@0,200..800;1,200..800&family=Kumbh+Sans:wght@100..900&family=Lexend+Deca:wght@100..900&family=Outfit:wght@100..900&family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Big+Shoulders:opsz,wght@10..72,100..900&family=Figtree:ital,wght@0,300..900;1,300..900&family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Karla:ital,wght@0,200..800;1,200..800&family=Kumbh+Sans:wght@100..900&family=Lexend+Deca:wght@100..900&family=Outfit:wght@100..900&family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&display=swap");
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+
+:root {
+  --Bright-orange: hsl(31, 77%, 52%);
+  --Dark-cyan: hsl(184, 100%, 22%);
+  --Very-dark-cyan: hsl(179, 100%, 13%);
+}
+
+body {
+  font-family: "Lexend Deca", sans-serif;
+  
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.container {
+  width: 100%;
+  max-width: 1100px;
+  height: 100%;
+  max-height: fit-content;
+  display: flex;
+ 
+  align-items: center;
+  border-radius: 2rem;
+}
+
+.card {
+  width: 100%;
+  padding: 3rem;
+  max-height: fit-content;
+  color: white;
+}
+
+.car {
+  width: 3.5rem;
+  height: 3.5rem;
+  background-color: rgba(0, 0, 0, 0.1); /* Adjust the alpha value as needed */
+  border-radius: 50%;
+}
+
+.card h1 {
+  font-family: "Big Shoulders", sans-serif;
+  font-size: 2.5rem;
+  margin: 2rem 0;
+}
+
+.card p {
+  font-size: 1.2rem;
+  line-height: 1.5rem;
+  margin-bottom: 2rem;
+  color: rgba(255, 255, 255, 0.693);
+}
+
+.card button {
+  border: none;
+  padding: 1rem 2rem;
+  border-radius: 2rem;
+  font-size: 1.2rem;
+  font-weight: bold;
+  background-color: white;
+  margin-top: 4.5rem;
+ 
+}
+
+.main {
+  background-color: var(--Bright-orange);
+  border-radius: 1rem 0 0 1rem;
+}
+.body {
+  background-color: var(--Dark-cyan);
+}
+.end {
+  background-color: var(--Very-dark-cyan);
+  border-radius: 0 1rem 1rem 0;
+}
+
+
+
+.main button{
+    color: var(--Bright-orange);
+}
+.body button{
+    color: var(--Dark-cyan);
+}
+.end button{
+    color: var(--Very-dark-cyan);
+}
+.card button:hover {
+  background-color: inherit;
+  color: white;
+  cursor: pointer;
+  border: 2px solid white;
+}
