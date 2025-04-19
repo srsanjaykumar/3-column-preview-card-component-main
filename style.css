@@ -36,9 +36,9 @@ body {
   height: 100%;
   max-height: fit-content;
   display: flex;
- 
   align-items: center;
   border-radius: 2rem;
+  overflow-y: hidden;
 }
 
 .card {
@@ -46,6 +46,7 @@ body {
   padding: 3rem;
   max-height: fit-content;
   color: white;
+  
 }
 
 .car {
@@ -68,7 +69,7 @@ body {
   color: rgba(255, 255, 255, 0.693);
 }
 
-.card button {
+.card .button {
   border: none;
   padding: 1rem 2rem;
   border-radius: 2rem;
@@ -76,7 +77,6 @@ body {
   font-weight: bold;
   background-color: white;
   margin-top: 4.5rem;
- 
 }
 
 .main {
@@ -93,18 +93,25 @@ body {
 
 
 
-.main button{
+
+
+.main .button{
     color: var(--Bright-orange);
 }
-.body button{
+.body .button{
     color: var(--Dark-cyan);
 }
-.end button{
+.end .button{
     color: var(--Very-dark-cyan);
 }
-.card button:hover {
+
+
+
+.card .button:hover {
   background-color: inherit;
   color: white;
   cursor: pointer;
+
+  padding: 0.9rem 1.9rem;
   border: 2px solid white;
 }
