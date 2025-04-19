@@ -19,7 +19,6 @@ html {
 
 body {
   font-family: "Lexend Deca", sans-serif;
-
   width: 100vw;
   height: 100vh;
   display: flex;
@@ -28,7 +27,6 @@ body {
 }
 
 .container {
-  /* width: 100%; */
   max-width: 1000px;
   height: auto;
   max-height: fit-content;
@@ -50,10 +48,7 @@ body {
 .car {
   width: 4.5rem;
   height: 4.5rem;
-  /* width: 3.5rem;
-  height: 3.5rem;
-  background-color: rgba(0, 0, 0, 0.1);
-  border-radius: 50%; */
+
 }
 .c-one {
   background: url(./images/icon-sedans.svg) no-repeat center;
