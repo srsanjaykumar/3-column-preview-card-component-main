@@ -34,7 +34,7 @@ body {
   max-height: fit-content;
   display: flex;
   align-items: center;
-  border-radius: 2rem;
+  border-radius: 1rem;
   overflow: hidden;
 }
 
