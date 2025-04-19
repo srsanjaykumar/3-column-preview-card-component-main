@@ -31,40 +31,55 @@ body {
 
 
 .container {
-  width: 100%;
-  max-width: 1100px;
-  height: 100%;
+  /* width: 100%; */
+  max-width: 1000px;
+  height: auto;
   max-height: fit-content;
   display: flex;
   align-items: center;
   border-radius: 2rem;
-  overflow-y: hidden;
+  overflow: hidden;
 }
 
 .card {
-  width: 100%;
-  padding: 3rem;
-  max-height: fit-content;
+  max-width: 100%;
+  padding: 2.5rem 3rem;
+  min-height: 450px;
+  max-height: 550px;
   color: white;
-  
+  box-sizing: border-box; 
 }
 
 .car {
-  width: 3.5rem;
+  width: 4.5rem;
+  height: 4.5rem;
+  /* width: 3.5rem;
   height: 3.5rem;
-  background-color: rgba(0, 0, 0, 0.1); /* Adjust the alpha value as needed */
-  border-radius: 50%;
+  background-color: rgba(0, 0, 0, 0.1);
+  border-radius: 50%; */
+}
+.c-one{
+  
+  background: url(./images/icon-sedans.svg) no-repeat center;
+}
+.c-two{
+
+  background: url(./images/icon-suvs.svg) no-repeat center;
+}
+.c-three{
+
+  background: url(./images/icon-luxury.svg) no-repeat center;
 }
 
 .card h1 {
   font-family: "Big Shoulders", sans-serif;
   font-size: 2.5rem;
-  margin: 2rem 0;
+  margin: 1rem 0;
 }
 
 .card p {
-  font-size: 1.2rem;
-  line-height: 1.5rem;
+  font-size: 1rem;
+  line-height: 1.3rem;
   margin-bottom: 2rem;
   color: rgba(255, 255, 255, 0.693);
 }
@@ -76,7 +91,8 @@ body {
   font-size: 1.2rem;
   font-weight: bold;
   background-color: white;
-  margin-top: 4.5rem;
+  margin-top: 3.5rem;
+  max-width: fit-content;
 }
 
 .main {
@@ -108,10 +124,14 @@ body {
 
 
 .card .button:hover {
+  max-width: fit-content;
   background-color: inherit;
   color: white;
   cursor: pointer;
-
   padding: 0.9rem 1.9rem;
   border: 2px solid white;
+}
+
+@media (max-width: 916px) {
+  
 }
